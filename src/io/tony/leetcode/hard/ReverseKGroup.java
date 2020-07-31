@@ -35,10 +35,6 @@ public class ReverseKGroup {
         }
         curTail.next = head ;
         curTail = tail;
-
-       /* final ListNode[] reverse = reverse(tempHead);
-        curTail.next = reverse[0];
-        curTail = reverse[1];*/
         len = 0;
         p = nextNodes;
         tempHead = nextNodes;
